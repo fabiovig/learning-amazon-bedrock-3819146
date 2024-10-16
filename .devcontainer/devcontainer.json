@@ -1,9 +1,15 @@
 {
-  "extensions": [
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "customizations": {
+    "vscode":{
+      "extensions":[
     "GitHub.github-vscode-theme",
+    //"ms-python.python@2024.4.0"
     "ms-python.python"
     // Additional Extensions Here
-  ],
+      ]
+      }
+    },
   "features": {
     "aws-cli": "latest"
 },
